@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Despertador</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="depertador.css">
+    </head>
+    <body onload="clock()">
+        <div id="body"></div>
+        <div id="nav">
+            <button class="nav"onclick="alarmclock()">Alarme</button>
+            <button class="nav"onclick="clock()">Relógio</button>
+            <button class="nav"onclick="timer()">Timer</button>
+            <button class="nav"onclick="stopwatch()">Config️</button>
+        </div>
+        <br />
+        <br />
+        <h1 style="position:fixed; background-color:blue; color:deepskyblue; height:75px; border-radius:20%; line-height:70px" id="gm"></h1>
+        <div class="footer">
+            <p class="footer-texto">&copy; Direitos Reservados 2020 | LUMATECH APPS E GAMES</p>
+        </div>
+    <script src="depertador.js"></script>
+    </body>
+</html>
